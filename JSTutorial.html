@@ -1,18 +1,11 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <script>
-    function runMyJavascript() {
-        document.write("document write")
-        window.alert("alert")
-        console.log("console log")
-    }
-    </script>
-</head>
-
 <body>
-    <button type="button" onclick="runMyJavascript()">Click me!</button>
+    <p id="para"></p>
+    <script type="text/javascript">
+    	var carName = "Honda City"
+    	document.getElementById("para").innerHTML = carName;
+    </script>
 </body>
 
 </html>
