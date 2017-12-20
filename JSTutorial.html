@@ -1,10 +1,18 @@
 <!DOCTYPE html>
 <html>
 
-<body>
+<head>
     <script>
-    	window.alert("Hello")
+    function runMyJavascript() {
+        document.write("document write")
+        window.alert("alert")
+        console.log("console log")
+    }
     </script>
+</head>
+
+<body>
+    <button type="button" onclick="runMyJavascript()">Click me!</button>
 </body>
 
 </html>
